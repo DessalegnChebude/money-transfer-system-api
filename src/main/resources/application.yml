@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/moneytransfer
     username: moneytransfer
     password: '123'
-  sql:email
+  sql:
     init:
       mode: always
   jpa:
