@@ -30,7 +30,7 @@ jobs:
           # Now go to your Heroku account and go to Account Settings. Scroll to the bottom until you see API Key. Copy this key and go to your project's repository on GitHub.
           # In your Repo, go to Settings -> Secrets and click on "New Secret". Then enter HEROKU_API_KEY as the name and paste the copied API Key as the value.
           # You can now push your project to GitHub and it will be automatically deployed to Heroku henceforth.
-          heroku_app_name: "money-transfer-app" #Must be unique in Heroku
+          heroku_app_name: "money-transfer-ap" #Must be unique in Heroku
           heroku_email: "letgo900@gmail.com"
           healthcheck: "https://money-transfer-api-actse.herokuapp.com/actuator/health"
           # Adding the url to the `healthcheck` option of the action will make the action attempt
